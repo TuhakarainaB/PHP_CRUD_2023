@@ -54,7 +54,7 @@
                             <div class='card card-body shadow mb-3'>
                             <h2 class='card-title'>{$array['model']}</h2>
                             <h4>{$array['tagline']}</h4>
-                            <p><img src='{$array['image']}' alt='{$array['model']}'></p>
+                            <p class='text-center'><img src='{$array['image']}' alt='{$array['model']}' class='img-fluid'></p>
                             <p>{$array['description']}</p>
                             <p>
                                 <a href='{$update}' class='btn btn-info'>Update Record</a>
